@@ -1,0 +1,37 @@
+# Autotest on Python 3.11
+
+## Tech stack:
+
+- [python 3.11](https://www.python.org)
+- [playwright](https://github.com/microsoft/playwright-python)
+
+
+## Description:
+
+This autotest is used to check the user's authorization on the site:
+
+1. To get started, you are logged into the site
+ 
+2. Automatic data entry: 'Login' and 'Password'
+   
+3. Choice protocol and network
+
+4. Send request on selected endpoint
+
+5. Check's getting response
+
+## How to use:
+
+Install Python 3.11
+
+Install Playwright for Python:
+
+`pip3 install playwright`
+
+Install the required browsers:
+
+`playwright install`
+
+Run file 'autorization.py':
+
+ `python3 autorization.py`
