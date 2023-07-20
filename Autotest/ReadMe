@@ -4,7 +4,7 @@
 
 - [python 3.11](https://www.python.org)
 - [playwright](https://github.com/microsoft/playwright-python)
-
+- [pyperclip](https://github.com/asweigart/pyperclip)
 
 ## Description:
 
@@ -14,7 +14,7 @@ This autotest is used to check the user's authorization on the site:
  
 2. Automatic data entry: 'Login' and 'Password'
    
-3. Choice protocol and network
+3. Copy APIkey
 
 4. Send request on selected endpoint
 
@@ -31,6 +31,10 @@ Install Playwright for Python:
 Install the required browsers:
 
 `playwright install`
+
+Install Pyperclip for Python
+
+`pip3 install pyperclip`
 
 Run file 'autorization.py':
 
